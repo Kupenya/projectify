@@ -35,7 +35,7 @@ config();
 const swaggerDefinition = {
   openapi: "3.0.0",
   info: {
-    title: "Project Management API",
+    title: "Projectify Management API",
     version: "1.0.0",
     description: "A REST API for managing projects - projectify",
     contact: {
