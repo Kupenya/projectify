@@ -79,21 +79,21 @@ const swaggerDefinition = {
       },
     },
 
-    // schemas: {
-    //   ErrorResponse: {
-    //     type: "object",
-    //     properties: {
-    //       success: {
-    //         type: "boolean",
-    //         example: false,
-    //       },
-    //       error: {
-    //         type: "string",
-    //         example: "Error message",
-    //       },
-    //     },
-    //   },
-    // },
+    schemas: {
+      ErrorResponse: {
+        type: "object",
+        properties: {
+          success: {
+            type: "boolean",
+            example: false,
+          },
+          error: {
+            type: "string",
+            example: "Error message",
+          },
+        },
+      },
+    },
   },
   security: [
     {
